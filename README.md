@@ -1,81 +1,71 @@
-Calculator
-A simple and visually appealing calculator built with React. This calculator provides basic arithmetic operations and a clean, responsive interface.
+# Calculator
+A simple and user-friendly calculator built with React. This app supports basic arithmetic operations and provides a clean, responsive interface.
 
-Features
-Perform basic arithmetic operations: addition, subtraction, multiplication, and division.
+## Features
+Addition, Subtraction, Multiplication, Division: Perform basic mathematical operations.
 
-Supports percentage calculations.
+Clear Input (AC): Reset the calculator.
 
-"AC" button to clear all input.
+Delete Last Entry (DEL): Remove the last character in the input.
 
-"DEL" button to delete the last character.
+Percentage Calculation (%): Calculate percentages.
 
-Responsive design suitable for all devices.
+Responsive Design: Works on all screen sizes.
 
-Technologies Used
-React: For building the user interface.
+## Tech Stack
+Frontend: React
 
-Tailwind CSS: For styling the calculator with a modern and responsive design.
+Styling: Tailwind CSS
 
-Installation
-To run the calculator locally, follow these steps:
+## Getting Started
+Prerequisites
+Make sure you have the following installed:
 
-Clone the repository:
+Node.js (v14 or later)
 
+## Installation
+Clone the repository
 bash
 Copy
 Edit
 git clone https://github.com/nitishlahre/Calculator.git
 cd Calculator
-Install dependencies:
-
+Install dependencies
 bash
 Copy
 Edit
 npm install
-Start the development server:
-
+Start the development server
 bash
 Copy
 Edit
 npm start
-Open your browser and navigate to http://localhost:3000.
+Open in your browser
+Navigate to:
 
-Usage
-Enter numbers and operators using the calculator buttons.
-
-Use the AC button to reset the input.
-
-Use the DEL button to delete the last character.
-
-Press the = button to calculate the result.
-
-Use % to calculate percentages.
-
-File Structure
-pgsql
+arduino
 Copy
 Edit
-Calculator/
+http://localhost:3000
+## File Structure
+csharp
+Copy
+Edit
+ Calculator/
 ├── src/
-│   ├── App.js
+│   ├── App.js         # Main app file
 │   ├── components/
-│   │   ├── Calculator.js
-│   ├── index.js
+│   │   ├── Calculator.js  # Calculator component
+│   ├── index.js       # Entry point
 ├── public/
-├── package.json
-└── README.md
-Screenshots
+│   ├── index.html     # HTML template
+├── package.json       # Project dependencies
+└── README.md          # Project documentation
+## Contributing
+Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
 
-(Replace # with the URL or path to your screenshot image.)
+## License
+This project is licensed under the MIT License.
 
-Contributing
-Contributions are welcome! If you have any suggestions or improvements, feel free to fork the repository and submit a pull request.
-
-License
-This project is open source and available under the MIT License.
-
-Author
+## Author
 Developed by Nitish Lahre.
-
-Feel free to customize this template further as per your project!
